@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+@media screen and (min-width:971px) {
+	body {
+		margin: 0;
+		font-size: 100%;
+	}
+	header {
+		background-color: rgba(0, 0, 0, 0.7);
+		position: fixed;
+		height: 40px;
+		width: 100%;
+		z-index: 100;
+	}
+	header ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.project_title {
+		float: left;
+		font-size: 150%;
+		width: 50%;
+		height: 40px;
+	}
+	.menu_link {
+		font-size: 15px;
+		transition: all 0.5s;
+		float: right;
+		width: 20%;
+		height: 40px;
+	}
+	header a {
+		color: rgba(255, 255, 255, 0.9);
+		text-decoration: none;
+		padding: auto auto;
+		list-style: none;
+		display: block;
+		text-align: center;
+		height: 40px;
+	}
+	header .menu_link a {
+		color: rgba(255, 255, 255, 0.9);
+		text-decoration: none;
+		padding: 10px;
+		list-style: none;
+		display: block;
+		text-align: center;
+		transition: 0.3s;
+		height: 20px;
+	}
+	header .menu_link a:hover {
+		background-color: rgba(200, 200, 200, 0.7);
+		color: rgba(0, 0, 0, 0.9);
+	}
+	.contents {
+		margin: 0px auto;
+		width: 1013px;
+		clear: both;
+		padding-top: 20%;
+		min-height: 30vw;
+		font-size: 100%;
+		text-align: center;
+	}
+	.top {
+		margin: 0px auto;
+		clear: both;
+		padding-top: 20%;
+		padding-left: 5%;
+		background-image: url(../img/bike4.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 5px;
+		min-height: 40vw;
+		font-size: 100%;
+		color: rgba(255, 255, 255, 0.9);
+		text-shadow: 1px 1px 20px #000;
+	}
+	.about {
+		margin: 0px auto;
+		padding: 0px 5%;
+		min-height: 60vw;
+		font-size: 100%;
+	}
+	.about_desc {
+		margin: 8% 5%;
+		float: left;
+		width: 50%;
+		min-height: 50vw;
+	}
+	.about_desc h3 {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.about_contents {
+		margin: 10% 5% 0px 5%;
+		float: left;
+		background-image: url(../img/mama.jpeg);
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 30%;
+		display: inline-block;
+		min-height: 40vw;
+	}
+	.map {
+		clear: both;
+		min-height: 50vw;
+		font-size: 100%;
+	}
+	.google_map {
+		float: left;
+		margin: 5%;
+		width: 40%;
+		min-height: 45vw;
+	}
+	.map_desc {
+		float: right;
+		margin: 5%;
+		width: 35%;
+		min-height: 45vw;
+	}
+	.shop {
+		font-size: 100%;
+		padding-left: 10px;
+		height: 350px;
+		overflow: scroll;
+		border: 1px #000000 solid;
+	}
+	.sns {
+		clear: both;
+		min-height: 45vw;
+		font-size: 100%;
+		background-color: #f1f1f1;
+		background-image: url(../img/o-matic.jpg);
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	
+	.sns_twitter {
+		float: left;
+		margin: 2% 5% 0px 5%;
+		width: 40%;
+		height: 100%;
+		min-height: 40vw;
+	}
+	.sns_fb {
+		float: left;
+		margin: 2% 5% 0px 5%;
+		width: 40%;
+		min-height: 40vw;
+	}
+	footer {
+		clear: both;
+		height: 60px;
+		font-size: 100%;
+		text-align: center;
+	}
+}
